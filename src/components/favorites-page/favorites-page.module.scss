@@ -1,0 +1,9 @@
+.favoritesPage {
+  display: flex;
+  flex-direction: column;
+
+  &ItemWrap {
+    display: flex;
+    justify-content: center;
+  }
+}

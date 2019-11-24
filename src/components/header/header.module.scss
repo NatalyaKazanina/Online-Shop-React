@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #334;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  letter-spacing: .15rem;
+  box-shadow: 0 0 10px #777;
+  user-select: none;
+
+  &Logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    font-style: italic;
+  }
+
+  &Menu {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    color: #ffffff;
+
+    &Item {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+
+    &Icon {
+      color: #ffffff;
+      padding-right: 4px;
+    }
+  }
+}
+
+.activeMenuItem {
+  color: #bebef8;
+
+  i {
+    color: #bebef8;
+  }
+}

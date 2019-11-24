@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Iphone XS Max, 6GB/128GB, Gold",
+    "price": 1000,
+    "count": 0,
+    "infoText": "Super Retina in zwei Formaten, mit dem bislang größten iPhone Display. Der intelligenteste, leistungsstärkste Smartphone Chip. Und ein revolutionäres Dual-Kamerasystem. Das iPhone XS ist alles, was du am iPhone liebst.",
+    "productImage": "https://images-na.ssl-images-amazon.com/images/I/61UojnxVbPL._SL1024_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Huawei P30 Pro, 8GB/128GB, Lila",
+    "price": 900,
+    "count": 0,
+    "infoText": "Die Eleganz des geschwungenen Gehäuses aus 3D-Glas macht das HUAWEI P30 Pro zu einem wahren Kunstwerk. Das 6,47 große OLED Dewdrop Display überzeugt mit seiner atemberaubenden Farbvarianz und seiner großen Oberfläche.",
+    "productImage": "https://images-na.ssl-images-amazon.com/images/I/71C6ykBzgML._SL1500_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "OnePlus 7 Pro, 8GB/256GB, Blue",
+    "price": 700,
+    "count": 0,
+    "infoText":"",
+    "productImage": "https://images-na.ssl-images-amazon.com/images/I/51rXSfI85TL._SL1400_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Samsung Galaxy S10+, 8GB/128GB, White",
+    "price": 800,
+    "count": 0,
+    "infoText": "",
+    "productImage": "https://cdn.idealo.com/folder/Product/6476/0/6476006/s1_produktbild_max_1/samsung-galaxy-s10-plus-512gb-ceramic-white.jpg"
+  }
+]
+

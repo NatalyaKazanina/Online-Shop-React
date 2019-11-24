@@ -1,0 +1,122 @@
+.productItem {
+  width: 70%;
+  max-width: 1200px;
+  min-width: 1000px;
+  display: flex;
+  min-height: 28vh;
+  margin-top: 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #ffffff;
+
+  &Image {
+    height: 200px;
+    margin: 20px 50px;
+  }
+
+  &Attributes {
+    flex-direction: column;
+    padding: 20px 20px 20px 0;
+    width: 100%;
+  }
+
+  &Title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  &InfoText {
+    height: 60px;
+  }
+
+  &Price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin: 10px 15px 30px 0;
+  }
+
+  &Choose {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  &Wrap {
+    display: flex;
+  }
+
+  &Cart {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+
+    &Title {
+      display: flex;
+      align-items: center;
+      height: 25px;
+      font-size: 15px;
+      font-weight: 700;
+      color: white;
+      background: #e62e02;
+      padding: 0 12px;
+    }
+
+    &Attributes {
+      display: flex;
+      width: 110px;
+      justify-content: space-between;
+
+      p {
+        width: 56px;
+        height: 25px;
+        border: 1px solid #949494;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+  }
+
+  &AddToCart, &RemoveFromCart {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #949494;
+    background: white;
+    border: 1px solid #949494;
+  }
+
+  &AddToFavorites {
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+    font-weight: 600;
+    color: #949494;
+    cursor: pointer;
+  }
+
+  &FavoritesIcon {
+    padding-right: 6px;
+  }
+
+  &AddToFavorites:hover {
+    color: #e62e02;
+    transition: 150ms;
+  }
+
+  &DeleteIcon {
+    color: rgba(191, 191, 191, 0.73);
+    transition: 150ms;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+}
+
+.productItem:hover {
+  box-shadow: 1px 1px 5px rgba(148, 148, 148, 0.73);
+  transition: 150ms;
+}
